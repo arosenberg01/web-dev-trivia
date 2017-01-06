@@ -8,6 +8,6 @@ var calledOnce = function() {
 };
 
 var calledTwice = times(calledOnce, 2);
-calledTwice(); \\ 1
-calledTwice(); \\ 1
-calledTwice(); undefined;
+calledTwice(); // 1
+calledTwice(); // 1
+calledTwice(); // undefined;
